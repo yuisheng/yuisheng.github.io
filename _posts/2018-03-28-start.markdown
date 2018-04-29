@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "start"
+title:  "Start"
 date:   2018-03-28 22:36:27
--categories: all
+categories: all
 ---
 Do not go gentle into that good night,
 Old age should burn and rave at close of day;
