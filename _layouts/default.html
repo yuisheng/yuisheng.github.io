@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  </head>
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
+    <header>
+      <h1>{{ site.title }}</h1>
+      <nav>
+        <ul>
+          <li><a href="{{ site.baseurl }}/">Home</a></li>
+          <li><a href="{{ site.baseurl }}/news/">News</a></li>
+          <li><a href="{{ site.baseurl }}/research/">Research</a></li>
+          <li><a href="{{ site.baseurl }}/publications/">Publications</a></li>
+          <li><a href="{{ site.baseurl }}/conference/">Conference</a></li>
+          <li><a href="{{ site.baseurl }}/group/">Group</a></li>
+          <li><a href="{{ site.baseurl }}/downloads/">Downloads</a></li>
+          <li><a href="{{ site.baseurl }}/teaching/">Teaching</a></li>
+          <li><a href="{{ site.baseurl }}/chinese/">中文</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <p>Proudly powered by Jekyll</p>
+    </footer>
   </body>
-
 </html>
-<!-- d.s.m.s.050600.062508.030515.080516.030818 | "Baby, I'm Yours" -->
+
