@@ -11,6 +11,8 @@ Chinese Academy of Sciences
 
 Email: zhenzhang@itpcas.ac.cn
 
+[Follow us on Twitter/X](https://twitter.com/zhenzhang_ch4)
+
 ## Professional Experience
 - 2023-present: Professor, Institute of Tibetan Plateau Research
 - 2021-2023: Assistant Research Scientist, ESSIC, University of Maryland
